@@ -27,10 +27,11 @@ class SubjectDetailViewController: UIViewController {
         } else {
             "0"
         }
+        let proffesorReal = if let subjectProffessor {subjectProffessor} else {""}
         
         self.subjectImage!.image = image
         self.subjectNameLabel!.text = subjectName
-        self.subjectProffessorLabel!.text = "Profesor: \(subjectProffessor)"
+        self.subjectProffessorLabel!.text = "Profesor: \(proffesorReal)"
         self.subjectCreditsLabel!.text = "Créditos: \(subjectCreditsString)"
     }
 }

@@ -14,10 +14,30 @@ class SubjectsTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let subject1 = Subject(name: "Programación de aplicaciones", proffessorName: "Luis Rollón Gordo", credits: 6, image: UIImage(named: "papps")!)
-        let subject2 = Subject(name: "Programación", proffessorName: "Rubén Martín García", credits: 6, image: UIImage(named: "java")!)
-        let subject3 = Subject(name: "Sistemas Operativos", proffessorName: "Alberto Pedrero Esteban", credits: 6, image: UIImage(named: "ssoo")!)
-        let subject4 = Subject(name: "Sistemas de Bases de Datos I", proffessorName: "Vidal Alonso Secades", credits: 6, image: UIImage(named: "ssbbdd")!)
+        let subject1 = Subject(
+            name: "Programación de aplicaciones",
+            proffessorName: "Luis Rollón Gordo",
+            credits: 6,
+            image: UIImage(named: "papps")!
+        )
+        let subject2 = Subject(
+            name: "Programación",
+            proffessorName: "Rubén Martín García",
+            credits: 6,
+            image: UIImage(named: "java")!
+        )
+        let subject3 = Subject(
+            name: "Sistemas Operativos",
+            proffessorName: "Alberto Pedrero Esteban",
+            credits: 6,
+            image: UIImage(named: "ssoo")!
+        )
+        let subject4 = Subject(
+            name: "Sistemas de Bases de Datos I",
+            proffessorName: "Vidal Alonso Secades",
+            credits: 6,
+            image: UIImage(named: "ssbbdd")!
+        )
         
         subjects = [subject1, subject2, subject3, subject4]
     }
